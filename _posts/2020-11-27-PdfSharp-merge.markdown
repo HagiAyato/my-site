@@ -4,16 +4,14 @@ title:  "PdfSharpでPDFを結合する"
 date:   2020-11-27 00:09:00 +0900
 categories: jekyll update
 ---
-※本記事は、Qiitaの下記記事と同一内容です。<br/>
-https://qiita.com/hagii-x/items/7e2dc668a446acec560e
+[本記事は、Qiitaのこの記事と同一内容です。](https://qiita.com/hagii-x/items/7e2dc668a446acec560e)
 
 <h1>はじめに</h1>
 PDFを結合するプログラムを日本語で調べると、出てくる多くはiTextSharpを使う方法です。<br/>
 これでもいいのですが、無料版のライセンスがAPGLであり商用ソフトを作る場合には支障をきたします。<br/>
 そこで今回は、MITライセンスのpdfSharpを用いてPDFを結合してみます。<br/>
 ※ライセンスの違いは以下の記事を参照<br/>
-　「オープンソースライセンス、どれなら使っても良いの？？」@fate_shelled
-　https://qiita.com/fate_shelled/items/a928709d7610cee5aa66
+　[オープンソースライセンス、どれなら使っても良いの？？](https://qiita.com/fate_shelled/items/a928709d7610cee5aa66)
 <h1>準備</h1>
 まずはC#のプロジェクトをvisual studioで作成します。<br/>
 次にそのプロジェクトにPdfSharpをインストールします。<br/>
@@ -66,7 +64,7 @@ document.Save(selectedPath);
 document.Close();
 ```
 このようにして実際に作成したコードは以下の中の関数"pdfMerge"です。<br/>
-https://github.com/HagiAyato/PDFmerger/blob/main/PDFmerger/IOpg.cs<br/>
+[PDFmerger/IOpg.cs](https://github.com/HagiAyato/PDFmerger/blob/main/PDFmerger/IOpg.cs)<br/>
 以下補足<br/>
 ・結合するファイルのパスはListにまとめておき、foreachを回して上記処理２～４を繰り替えすのがおすすめです。<br/>
 ・PDFオブジェクト作成時はusing句を使うことで、確実に処理終了時の解放ができます。<br/>
