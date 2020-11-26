@@ -8,28 +8,28 @@ categories: jekyll update
 https://qiita.com/hagii-x/items/7e2dc668a446acec560e
 
 <h1>はじめに</h1>
-PDFを結合するプログラムを日本語で調べると、出てくる多くはiTextSharpを使う方法です。
-これでもいいのですが、無料版のライセンスがAPGLであり商用ソフトを作る場合には支障をきたします。
+PDFを結合するプログラムを日本語で調べると、出てくる多くはiTextSharpを使う方法です。<br/>
+これでもいいのですが、無料版のライセンスがAPGLであり商用ソフトを作る場合には支障をきたします。<br/>
 そこで今回は、MITライセンスのpdfSharpを用いてPDFを結合してみます。<br/>
-※ライセンスの違いは以下の記事を参照
+※ライセンスの違いは以下の記事を参照<br/>
 　「オープンソースライセンス、どれなら使っても良いの？？」@fate_shelled
 　https://qiita.com/fate_shelled/items/a928709d7610cee5aa66
 <h1>準備</h1>
-まずはC#のプロジェクトをvisual studioで作成します。
+まずはC#のプロジェクトをvisual studioで作成します。<br/>
 次にそのプロジェクトにPdfSharpをインストールします。<br/>
-　１．プロジェクト　＞　NuGet パッケージの管理を開く
-　２．検索欄に"pdfSharp"を入力する
-　３．右側"インストール"ボタンをクリックする
+　１．プロジェクト　＞　NuGet パッケージの管理を開く<br/>
+　２．検索欄に"pdfSharp"を入力する<br/>
+　３．右側"インストール"ボタンをクリックする<br/>
 
 <h1>コード実装</h1>
-いよいよコードを実装します。
+いよいよコードを実装します。<br/>
 まずはライブラリをコードにインポートします。
 
 ```C#
 using PdfSharp.Pdf;
 using PdfSharp.Pdf.IO;
 ```
-つついて実際に処理を実装します。
+つついて実際に処理を実装します。<br/>
 １．結合後PDFのオブジェクトを作成
 
 ```C#
@@ -56,7 +56,7 @@ foreach (PdfPage page in inputDocument.Pages)
 // 結合するPDFを閉じる
 inputDocument.Close();
 ```
-４．２，３を結合するPDFの数だけ繰り返す
+４．２，３を結合するPDFの数だけ繰り返す<br/>
 ５．PDFを保存し閉じる
 
 ```C#
@@ -65,14 +65,14 @@ document.Save(selectedPath);
 // PDFを閉じる
 document.Close();
 ```
-このようにして実際に作成したコードは以下の中の関数"pdfMerge"です。
+このようにして実際に作成したコードは以下の中の関数"pdfMerge"です。<br/>
 https://github.com/HagiAyato/PDFmerger/blob/main/PDFmerger/IOpg.cs<br/>
-以下補足
-・結合するファイルのパスはListにまとめておき、foreachを回して上記処理２～４を繰り替えすのがおすすめです。
-・PDFオブジェクト作成時はusing句を使うことで、確実に処理終了時の解放ができます。
-・例外処理(try-catch等)もお忘れなく。
+以下補足<br/>
+・結合するファイルのパスはListにまとめておき、foreachを回して上記処理２～４を繰り替えすのがおすすめです。<br/>
+・PDFオブジェクト作成時はusing句を使うことで、確実に処理終了時の解放ができます。<br/>
+・例外処理(try-catch等)もお忘れなく。<br/>
 <h1>ライセンス表記</h1>
-PdfSharpはMITライセンスのライブラリで、使用する際はライセンスの表記が必要です。
+PdfSharpはMITライセンスのライブラリで、使用する際はライセンスの表記が必要です。<br/>
 ソースコード中やreadmeなどにライセンス表記を入れましょう。
 
 ```C#
