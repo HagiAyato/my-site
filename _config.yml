@@ -27,8 +27,6 @@ baseurl: "/my-site" # the subpath of your site, e.g. /blog
 url: "https://hagiayato.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hagiPublic
 github_username: hagiayato
-# Google Analytisc4
-google_analytics4: G-D2XL34QBEQ
 
 # Build settings
 theme: minima
