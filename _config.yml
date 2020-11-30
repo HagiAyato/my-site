@@ -27,11 +27,18 @@ baseurl: "/my-site" # the subpath of your site, e.g. /blog
 url: "https://hagiayato.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hagiPublic
 github_username: hagiayato
+# Google Analytisc4
+# 下の行をコメントアウトすると無効化
+# 測定IDはgoogle-analytics4.htmlに直書き
+google_analytics4: enable
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+# buildmode:production/development
+environment: production
+# environment: development
 
 # Exclude from processing.
 # The following items will not be processed, by default.
