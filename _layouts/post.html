@@ -3,6 +3,10 @@ layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
+  <!-- Facebook share step1 https://developers.facebook.com/docs/plugins/like-button -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v9.0" nonce="ImLtfidG"></script>
+  
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
@@ -20,19 +24,10 @@ layout: default
     <!-- カスタムスペース(広告、SNSシェアなど) -->
     <hr>
     <h3>SNS Share</h3>
+    <!-- Twitter share -->
     <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <ul class="share-post list-inline pull-right">
-      <li>
-        <a href="https://twitter.com/intent/tweet?text={{ page.title }} -- {{ site.title }}&url={{ site.url }}{{ page.url | relative_url }}" rel="nofollow" target="_blank" title="Share on Twitter" class='btn btn-default btn-xs'>
-          <i class="fa fa-twitter"><span>Twitter</span></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url | relative_url }}" rel="nofollow" target="_blank" title="Share on Facebook"" class='btn btn-default btn-xs'>
-          <i class='fa fa-facebook'><span>Facebook</span></i>
-        </a>
-      </li>
-    </ul>
+    <!-- Facebook share step2 https://developers.facebook.com/docs/plugins/like-button -->
+    <div class="fb-like" data-href="{{ site.url }}{{ page.url | relative_url }}" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
     <!-- カスタムスペースここまで -->
   </div>
 
