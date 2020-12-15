@@ -31,8 +31,6 @@ github_username: hagiayato
 google_analytics: UA-185637831-1
 # language
 lang: ja-JP
-# sidebar
-sidebar: tocjs
 
 # Build settings
 theme: minima
