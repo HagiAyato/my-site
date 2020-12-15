@@ -1,0 +1,6 @@
+<h2>Tags</h2>
+<div class="collection">
+  {% for tag in site.data.tags %}
+  <a href="/{{ tag.name }}.html" class="collection-item">{{ tag.title }}</a>
+  {% endfor %}
+</div>
