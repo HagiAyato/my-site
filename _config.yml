@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: HA Works
-email: h8a9g11i☆gmail.com※☆→@
+email: haworks.eng☆gmail.com※☆→@
 description: >- # this means to ignore newlines until "baseurl:"
   あるエンジニアの日記と製作物まとめです。
   内容がどうなるかはお楽しみに…(?)
@@ -28,7 +28,7 @@ url: "https://hagiayato.github.io/" # the base hostname & protocol for your site
 twitter_username: hagiPublic
 github_username: hagiayato
 # Google Analytisc
-google_analytics: UA-181538826-2
+google_analytics: UA-185637831-1
 
 # Build settings
 theme: minima
