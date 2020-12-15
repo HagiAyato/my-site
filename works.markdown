@@ -17,3 +17,9 @@ permalink: /works/
 <h4>バイナリ変換器</h4>  
 
 - [ソースコード](https://github.com/HagiAyato/BinaryTest)  
+
+<h4>妄想言語 Hinako</h4>  
+
+- [実行できるサイト](https://hagiayato.github.io/PLHInako)  
+
+- [ソースコード](https://github.com/HagiAyato/PLHInako)  
