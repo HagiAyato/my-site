@@ -35,7 +35,11 @@ lang: ja-JP
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-feed # フィード
+  - jekyll-sitemap # サイトマップ
+  - jemoji # 絵文字
+  - jekyll-mentions # リダイレクト
+  - jekyll-seo-tag # SEOタグ
 # buildmode:production/development
 environment: production
 # environment: development
