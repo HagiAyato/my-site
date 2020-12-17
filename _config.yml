@@ -36,10 +36,11 @@ lang: ja-JP
 theme: minima
 plugins:
   - jekyll-feed # フィード
+  - jekyll-redirect-from # リダイレクト
+  - jekyll-seo-tag # SEOタグ
   - jekyll-sitemap # サイトマップ
   - jemoji # 絵文字
   - jekyll-mentions # リダイレクト
-  - jekyll-seo-tag # SEOタグ
 # buildmode:production/development
 environment: production
 # environment: development
