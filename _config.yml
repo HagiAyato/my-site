@@ -40,7 +40,7 @@ plugins:
   - jekyll-seo-tag # SEOタグ
   - jekyll-sitemap # サイトマップ
   - jemoji # 絵文字
-  - jekyll-mentions # リダイレクト
+  - jekyll-mentions # メンション
 # buildmode:production/development
 environment: production
 # environment: development
