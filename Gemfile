@@ -21,7 +21,6 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-mentions"
   gem "jekyll-paginate", "~> 1.1.0"
-  gem 'jekyll-toc'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

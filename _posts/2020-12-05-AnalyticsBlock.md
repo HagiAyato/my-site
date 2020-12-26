@@ -5,8 +5,11 @@ date:   2020-12-05 00:22:00 +0900
 categories: jekyll update
 description: 広告ブロッカーとサイト分析の小話
 tags: 技術ネタ
-toc: true
 ---
+**目次**
+- TOC
+{:toc}
+
 [本記事は、Qiitaのこの記事と同一内容です。](https://qiita.com/hagii-x/items/d9fd851263c595b5da2e)
 
 ## 発端  
