@@ -2,13 +2,16 @@
 layout: default
 ---
 
+<h1 class="page-heading">HA Works 最近の記事</h1>
+
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-<h1><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h1>
+<hr>
+<h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
 <p class="author">
     <span class="date">{{ post.date }}</span>
 </p>
-<div class="content">
+<div class="content" style="padding-bottom: 30px;">
     {%- if post.author -%}
     • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
             itemprop="name">{{ post.author }}</span></span>
@@ -51,4 +54,5 @@ layout: default
     <span>Next &raquo;</span>
     {% endif %}
 </div>
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 {% endif %}
