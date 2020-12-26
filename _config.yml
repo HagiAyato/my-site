@@ -41,6 +41,8 @@ plugins:
   - jekyll-sitemap # サイトマップ
   - jemoji # 絵文字
   - jekyll-mentions # メンション
+  - jekyll-archives # アーカイブ
+  - jekyll-related-posts # 関連記事
 # buildmode:production/development
 environment: production
 # environment: development
