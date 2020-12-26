@@ -21,7 +21,7 @@ layout: default
         <h2>tags:</h2>
         <ul>
           {% for tag in page.tags %}
-          <li>{{ tag }}</li>
+          <li><a href="{{site.baseurl}}/tag/{{ tag }}.html">{{ tag }}</a></li>
           {% endfor %}
         </ul>
       </nav>   

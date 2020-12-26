@@ -45,8 +45,15 @@ plugins:
 environment: production
 # environment: development
 
+# paginate
 paginate: 5
 paginate_path: "/my-site/page:num/"
+# タグページ
+tag_page_layout: tag_page
+tag_page_dir: tag
+# タグフィード
+tag_feed_layout: tag_feed
+tag_feed_dir: tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -4,6 +4,7 @@ title:  "自分の強みは何だろう"
 date:   2020-12-20 17:00:00 +0900
 description: VIA-ISテストと適職診断で自分の強みを分析してみた
 categories: jekyll update
+tags: 自分ネタ
 ---
 **目次**
 - TOC

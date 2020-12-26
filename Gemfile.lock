@@ -53,6 +53,8 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-tagging (1.1.0)
+      nuggets
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jemoji (0.12.0)
@@ -76,6 +78,7 @@ GEM
     minitest (5.14.2)
     nokogiri (1.10.10-x64-mingw32)
       mini_portile2 (~> 2.4.0)
+    nuggets (1.6.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
@@ -108,6 +111,7 @@ DEPENDENCIES
   jekyll-paginate (~> 1.1.0)
   jekyll-redirect-from
   jekyll-sitemap
+  jekyll-tagging
   jemoji
   minima (~> 2.5)
   tzinfo (~> 1.2)
