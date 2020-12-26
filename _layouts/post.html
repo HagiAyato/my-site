@@ -18,10 +18,10 @@ layout: default
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
       <nav id="tags">
-        <h2>tags:</h2>
-        <ul>
+        <span>tags:</span>
+        <ul li style="display:inline;">
           {% for tag in page.tags %}
-          <li><a href="{{site.baseurl}}/tag/{{ tag }}.html">{{ tag }}</a></li>
+          <li style="display:inline;"><a href="{{site.baseurl}}/tag/{{ tag }}.html">{{ tag }}</a></li>
           {% endfor %}
         </ul>
       </nav>   
