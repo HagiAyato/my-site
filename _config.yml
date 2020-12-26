@@ -41,9 +41,13 @@ plugins:
   - jekyll-sitemap # サイトマップ
   - jemoji # 絵文字
   - jekyll-mentions # メンション
+  - jekyll-toc # 目次
 # buildmode:production/development
 environment: production
 # environment: development
+
+paginate: 5
+paginate_path: "/my-site/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

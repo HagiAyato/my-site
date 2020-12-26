@@ -5,6 +5,7 @@ date:   2020-11-27 00:09:00 +0900
 categories: jekyll update
 description: MITライセンスのPDFを結合するライブラリ、pdfSharpを用いてPDFを結合してみます。
 tags: 技術ネタ
+toc: true
 ---
 [本記事は、Qiitaのこの記事と同一内容です。](https://qiita.com/hagii-x/items/7e2dc668a446acec560e)
 
