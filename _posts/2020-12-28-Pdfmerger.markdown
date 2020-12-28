@@ -28,7 +28,7 @@ MITライセンスのライブラリ、PdfSharpを用いてPDFの結合を行う
    PDFを結合しなおす際にこの.datファイルを読み込むことで、結合設定をすぐに復元できます。
 
 ### DLリンク  
-[PDFmerger リリース](https://github.com/HagiAyato/PDFmerger/releases)
+[PDFmerger リリース](https://github.com/HagiAyato/PDFmerger/releases)  
 同じリポジトリで、ソースコードも確認可能です。
 ### 以下、ソフトのreadme  
 <hr/>
