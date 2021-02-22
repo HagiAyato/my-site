@@ -23,3 +23,11 @@ permalink: /works/
 - [実行できるサイト](https://hagiayato.github.io/PLHInako)  
 
 - [ソースコード](https://github.com/HagiAyato/PLHInako)  
+<h4>2生物ライフゲーム/Two Camps Game of Life</h4>  
+
+- [ソースコード](https://github.com/HagiAyato/MyLifeGame)  
+
+- [実行できるサイト](https://hagiayato.github.io/MyLifeGame)    
+<h4>TeraPadの色設定(黒背景モード)</h4>  
+
+- [設定ファイル](https://github.com/HagiAyato/BlackPad)  
