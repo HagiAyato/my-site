@@ -10,7 +10,7 @@ permalink: /tags/
   {% for tag in site.tags %}
   <li>
     <!--tag[0]:タグ名称-->
-    <a href="{{site.baseurl}}/tags/{{ tag[0] }}">{{ tag[0] }}</a>
+    <a href="{{site.baseurl}}/tags/{{ tag[0] }}">{{ tag[0] }}</a>[{{ tag[1].size }}件]
   </li>
   {% endfor %}
 </ul>
