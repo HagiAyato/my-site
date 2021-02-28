@@ -16,7 +16,7 @@ tags: 技術ネタ
 # はじめに
 様々なサイトで見かける住所入力欄。  
 今後フロントエンド系の仕事をすれば一度は関わることがあるのではと思いますので、入力しやすい住所入力欄を実際に実装しながら考えてみます。  
-なお今回は、ライブラリとしてBootstrap v5.0.0 を使用します。  
+なお今回は、ライブラリとしてBootstrap v5.0.0を使用します。  
 ソースコード：[HagiAyato.github.io/practice/address/](https://github.com/HagiAyato/HagiAyato.github.io/tree/master/practice/address)  
 動作確認できるページ：[入れやすい住所入力欄を、欄を作りながら考える](https://hagiayato.github.io/practice/address/index.html)  
 
