@@ -3,15 +3,6 @@
 layout: default
 ---
 <h2>{{ page.tag }}記事一覧</h2>
-<!-- <ul>
-{% for post in page.posts %}
-  <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }} | Tags: {{ post | tags }})</li>
-{% endfor %}
-</ul>
-<h2>タグ一覧</h2>
-<div id="tag-cloud">
-  {{ site | tag_cloud }}
-</div> -->
 
 <ul>
   {% for post in site.tags[page.tag] %}
