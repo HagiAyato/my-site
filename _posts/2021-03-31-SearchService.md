@@ -18,9 +18,9 @@ tags: 技術ネタ
 
 # URLの特徴
 Googleで"Qiita"を検索する場合、"Qiita"を入力欄に入れたうえで検索処理を実行します。  
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/655112/e9f8fb24-956d-0728-52f4-4144fba53c6a.png)
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/655112/e9f8fb24-956d-0728-52f4-4144fba53c6a.png)  
 その結果は以下のように検索結果ページに遷移し表示されます。  
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/655112/7c98d684-ce76-5c7c-a7ff-1a7490e64a33.png)
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/655112/7c98d684-ce76-5c7c-a7ff-1a7490e64a33.png)  
 そのページのURLは下記のとおり
 
 ```
@@ -54,11 +54,12 @@ https://www.facebook.com/search/top?q=[検索文]
 ```
 
 ## この特徴は何者か
-各検索機能のURLにある"q=[検索文]"のような部分はクエリストリング（クエリ文字列、URLパラメータ、リクエストパラメータ）です。クエリストリングによって表示する検索ワードを検索機能に渡しています。
+各検索機能のURLにある"q=[検索文]"のような部分はクエリストリング（クエリ文字列、URLパラメータ、リクエストパラメータ）です。  
+クエリストリングによって表示する検索ワードを検索機能に渡しています。  
 HTTPの2メソッド、GET/POSTのうち、クエリストリングはGETメソッドのみ入ります。
 
 各検索機能でGETメソッドを使っている理由は、サイトの閲覧履歴に検索結果を残すためです。  
-[こちらも参照：HTTPとは？GETとPOST？](https://qiita.com/norichang/items/7dcb2aedbb67fab341cc)  
+[こちらも参照：HTTPとは？GETとPOST？](https://qiita.com/norichang/items/7dcb2aedbb67fab341cc)    
 検索結果のページは履歴から再閲覧・ブラウザバックで再表示できると便利ですよね。  
 
 ## この特徴の活用例
@@ -67,8 +68,8 @@ HTTPの2メソッド、GET/POSTのうち、クエリストリングはGETメソ�
 URLの特徴を生かすことで、複数のサイトでの検索を1つのフォームで切り替え実行できます。  
 仕組みはクエリストリングの前につけるURLを検索サイトにより切り替えるだけ。  
 [当該コード](https://github.com/HagiAyato/HagiAyato.github.io/blob/master/MySearch/script/script.js)  
-###[実装例](https://hagiayato.github.io/MySearch/)
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/655112/9f33a5cd-9741-80c6-7e2c-720b24a789b2.png)  
+###[実装例](https://hagiayato.github.io/MySearch/)  
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/655112/9f33a5cd-9741-80c6-7e2c-720b24a789b2.png)    
 ※検索サイトは、javascriptを改変することで自分好みに追加・改変可能です。  
 
 # まとめ
