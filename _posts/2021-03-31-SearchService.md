@@ -68,7 +68,7 @@ HTTPの2メソッド、GET/POSTのうち、クエリストリングはGETメソ�
 URLの特徴を生かすことで、複数のサイトでの検索を1つのフォームで切り替え実行できます。  
 仕組みはクエリストリングの前につけるURLを検索サイトにより切り替えるだけ。  
 [当該コード](https://github.com/HagiAyato/HagiAyato.github.io/blob/master/MySearch/script/script.js)  
-###[実装例](https://hagiayato.github.io/MySearch/)  
+### [実装例](https://hagiayato.github.io/MySearch/)  
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/655112/9f33a5cd-9741-80c6-7e2c-720b24a789b2.png)    
 ※検索サイトは、javascriptを改変することで自分好みに追加・改変可能です。  
 
