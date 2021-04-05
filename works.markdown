@@ -21,13 +21,18 @@ permalink: /works/
 <h4>妄想言語 Hinako</h4>  
 
 - [実行できるサイト](https://hagiayato.github.io/PLHInako)  
-
 - [ソースコード](https://github.com/HagiAyato/PLHInako)  
+
+<h4>妄想伝送信号 むふ～ふ信号</h4>  
+
+- [実行できるサイト](https://hagiayato.github.io/PLHInako/mufufuSignal)  
+- [ソースコード](https://github.com/HagiAyato/PLHInako/mufufuSignal)  
+
 <h4>2生物ライフゲーム/Two Camps Game of Life</h4>  
 
 - [ソースコード](https://github.com/HagiAyato/MyLifeGame)  
+- [実行できるサイト](https://hagiayato.github.io/MyLifeGame)  
 
-- [実行できるサイト](https://hagiayato.github.io/MyLifeGame)    
 <h4>TeraPadの色設定(黒背景モード)</h4>  
 
 - [設定ファイル](https://github.com/HagiAyato/BlackPad)  
