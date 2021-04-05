@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "妄想伝送信号「むふ～ふ信号」で通信"
-date:   2020-04-06 06:22:00 +0900
+date:   2021-04-06 06:22:00 +0900
 description: 喜多日菜子のむふふで、むふ～ふな伝送信号作ってみた
 categories: jekyll update
 tags: 技術ネタ アイマスネタ
