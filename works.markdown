@@ -25,8 +25,8 @@ permalink: /works/
 
 <h4>妄想伝送信号 むふ～ふ信号</h4>  
 
-- [実行できるサイト](https://hagiayato.github.io/PLHInako/mufufuSignal)  
-- [ソースコード](https://github.com/HagiAyato/PLHInako/mufufuSignal)  
+- [実行できるサイト](https://hagiayato.github.io/PLHInako/mufufusignal)  
+- [ソースコード](https://github.com/HagiAyato/PLHInako/tree/main/mufufusignal)  
 
 <h4>2生物ライフゲーム/Two Camps Game of Life</h4>  
 
