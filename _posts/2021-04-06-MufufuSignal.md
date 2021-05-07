@@ -37,7 +37,7 @@ tags: 技術ネタ アイマスネタ
 それでは、妄想伝送信号「むふ～ふ信号」で通信文を作ってみましょう。  
 実行環境は、下記実行サイトです。  
 
-[**実行サイト**](https://hagiayato.github.io/PLHInako/mufufuSignal)  
+[**実行サイト**](https://hagiayato.github.io/PLHInako/mufufusignal/)  
 
 「変換前」欄にむふ～ふ信号にしたい分を片仮名入力し、「元の文->むふ～ふ信号」ボタンを押すとむふ～ふ信号の伝文を作成できます。   
   
