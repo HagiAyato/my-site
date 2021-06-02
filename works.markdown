@@ -42,3 +42,13 @@ permalink: /works/
 
 - [実行できるサイト](https://hagiayato.github.io/MySearch/)  
 - [ソースコード](https://github.com/HagiAyato/HagiAyato.github.io/tree/master/MySearch)  
+
+<h4>高度な検索</h4>  
+
+- [実行できるサイト](https://hagiayato.github.io/AdvancedGoogle/)  
+- [ソースコード](https://github.com/HagiAyato/HagiAyato.github.io/tree/master/AdvancedGoogle)  
+
+<h4>おいんえんあんい 母音変換機</h4>  
+
+- [いっおうえいうあいお 実行できるサイト](https://hagiayato.github.io/VowelJP/)  
+- [おおうおおお ソースコード](https://github.com/HagiAyato/HagiAyato.github.io/tree/master/VowelJP)  
