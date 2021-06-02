@@ -59,6 +59,18 @@ layout: default
     <!-- Facebook share step2 -->
     <div class="fb-like" data-href="{{ site.url }}{{ page.url | relative_url }}" data-width="" data-layout="standard"
       data-action="like" data-size="small" data-share="true"></div>
+    <!-- 前後記事 -->
+    <br />
+    <span>←Next:</span>
+    <a href="{{ page.next.url | relative_url }}">
+      {{ page.next.title | escape }}
+    </a>
+    <br />
+    <span>Previous:</span>
+    <a href="{{ page.previous.url | relative_url }}">
+      {{ page.previous.title | escape }}
+    </a>
+    <span>→</span>
     <!-- カスタムスペースここまで -->
   </div>
 
