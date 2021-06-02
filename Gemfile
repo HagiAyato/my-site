@@ -36,4 +36,5 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # for travis-ci
+# ローカルでビルドする際は、以下の一行をコメントアウトする
 gem 'github-pages'
