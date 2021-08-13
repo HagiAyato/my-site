@@ -6,6 +6,7 @@ description: Officeのファイル(docx/xlsx/pptx)から画像を抜き出すコ
 categories: jekyll update
 tags: 技術ネタ
 ---
+[本記事は、Qiitaのこの記事と同一内容です。](https://qiita.com/hagii-x/items/5cdea6f84a50bab40146)
 
 **目次**
 - TOC
