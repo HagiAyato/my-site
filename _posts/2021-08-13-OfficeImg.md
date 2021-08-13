@@ -26,7 +26,7 @@ tags: 技術ネタ
 ソースコートは下記リンクに貼ってあります。  
 [Program.cs](https://github.com/HagiAyato/OfficeImg/blob/main/OfficeImg/OfficeImg/Program.cs)
 
-####仕様
+#### 仕様
 
 - ドラッグアンドドロップをしたOfficeファイルについて、使用画像を取り出す
 - 複数ファイルのドラッグアンドドロップにも対応
@@ -37,7 +37,7 @@ tags: 技術ネタ
  - Excel:".xlsx",".xlsm",".xltx",".xltm"
  - Open Document:".ods",".odt",".odp"
 
-####処理の流れ
+#### 処理の流れ
 
 1. ファイルの存在チェック
 1. ファイルの拡張子チェック
