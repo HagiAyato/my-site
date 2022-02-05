@@ -48,7 +48,7 @@ Excelで文字列をコピーする方法は様々ですが、直感的に一番
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/655112/f0a0676e-1f69-0cf1-22d9-193040407f9a.png)  
 
 ### 4.ショートカットキーで貼り付け
-ショートカットキーを使えば、マウス操作なしで"DECO*27"の27をそのままコピーできます。  
+ショートカットキーを使えば、マウス操作なしで"DECO\*27"の27をそのままコピーできます。  
 
 1. Ctrl+D
 "DECO\*27"と入力したい範囲のうち、一番上に"DECO\*27"と入力->そのセルを含めて、入力したい範囲全体をShiftキー+"↓"キー操作で選択  
@@ -70,6 +70,7 @@ Excelで文字列をコピーする方法は様々ですが、直感的に一番
 
 # 宣伝
 最後に、DECO\*27さんの公式チャンネル、SNSを掲載します。  
-Twitter: https://twitter.com/DECO27  
-Youtube: https://www.youtube.com/c/DECO27Official  
+技術勉強の合間に、DECO\*27さんの楽曲をお楽しみください。
+[Twitter](https://twitter.com/DECO27)  
+[Youtube](https://www.youtube.com/c/DECO27Official)  
 
