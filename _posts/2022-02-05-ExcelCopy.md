@@ -70,7 +70,7 @@ Excelで文字列をコピーする方法は様々ですが、直感的に一番
 
 # 宣伝
 最後に、DECO\*27さんの公式チャンネル、SNSを掲載します。  
-技術勉強の合間に、DECO\*27さんの楽曲をお楽しみください。
+技術勉強の合間に、DECO\*27さんの楽曲をお楽しみください。  
 [Twitter](https://twitter.com/DECO27)  
 [Youtube](https://www.youtube.com/c/DECO27Official)  
 
