@@ -49,6 +49,9 @@ layout: default
     <!-- Facebook share step2 https://developers.facebook.com/docs/plugins/like-button -->
     <div class="fb-like" data-href="{{ site.url }}{{ page.url | relative_url }}" data-width="" data-layout="standard"
       data-action="like" data-size="small" data-share="true"></div>
+    <!-- Bluesky share https://github.com/spuithori/bsky-share-button -->
+    <bsky-share-button url="{{ site.url }}{{ page.url | relative_url }}"></bsky-share-button>
+    <script src="https://unpkg.com/bsky-share-button@latest/dist/bsky-share-button.umd.js"></script>
     {{ content }}
     <!-- カスタムスペース(広告、SNSシェアなど) -->
     <hr>
@@ -59,6 +62,9 @@ layout: default
     <!-- Facebook share step2 -->
     <div class="fb-like" data-href="{{ site.url }}{{ page.url | relative_url }}" data-width="" data-layout="standard"
       data-action="like" data-size="small" data-share="true"></div>
+    <!-- Bluesky share https://github.com/spuithori/bsky-share-button -->
+    <bsky-share-button url="{{ site.url }}{{ page.url | relative_url }}"></bsky-share-button>
+    <script src="https://unpkg.com/bsky-share-button@latest/dist/bsky-share-button.umd.js"></script>
     <!-- 前後記事 -->
     <br />
     <span>←Next:</span>
