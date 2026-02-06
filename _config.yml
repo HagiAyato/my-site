@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   あるエンジニアの日記と製作物まとめです。
   内容がどうなるかはお楽しみに…(?)
 baseurl: "/my-site" # the subpath of your site, e.g. /blog
-url: "https://hagiayato.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://hagiayato.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hagiPublic
 github_username: hagiayato
 # Google Analytisc
@@ -43,6 +43,8 @@ plugins:
   - jemoji # 絵文字
   - jekyll-mentions # メンション
   - jekyll-archives # アーカイブ
+  - jekyll-paginate # ページネーション
+  - jekyll-tagging # タグ生成
 # buildmode:production/development
 environment: production
 # environment: development
