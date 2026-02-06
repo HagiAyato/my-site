@@ -52,6 +52,7 @@ layout: default
     <!-- Bluesky share https://github.com/spuithori/bsky-share-button -->
     <bsky-share-button url="{{ site.url }}{{ page.url | relative_url }}"></bsky-share-button>
     <script src="https://unpkg.com/bsky-share-button@latest/dist/bsky-share-button.umd.js"></script>
+    {% include cookie-consent.html %}
     {{ content }}
     <!-- カスタムスペース(広告、SNSシェアなど) -->
     <hr>
