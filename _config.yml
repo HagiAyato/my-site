@@ -43,8 +43,8 @@ plugins:
   - jemoji # 絵文字
   - jekyll-mentions # メンション
   - jekyll-archives # アーカイブ
-  - jekyll-paginate # ページネーション
-  - jekyll-tagging # タグ生成
+  # - jekyll-paginate # ページネーション
+  # - jekyll-tagging # タグ生成
 # buildmode:production/development
 environment: production
 # environment: development
